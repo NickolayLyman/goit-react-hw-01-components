@@ -1,28 +1,28 @@
 .transaction_history {
-    margin: 30px auto;
-    width: 500px;
-    text-align: center;
-    border-spacing: 0;
+  margin: 30px auto;
+  width: 500px;
+  text-align: center;
+  border-spacing: 0;
 }
 
 .transaction_name {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: rgb(20, 211, 195);
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(20, 211, 195);
 }
 
-.transaction_type{
-    border: 1px solid black;
-    padding: 10px;
+.transaction_type {
+  border: 1px solid black;
+  padding: 10px;
 }
-.transaction_type::first-letter{
-    text-transform: uppercase;
+.transaction_type::first-letter {
+  text-transform: uppercase;
 }
 
 .transaction_row {
-    background-color: rgb(224, 238, 104);
+  background-color: rgb(224, 238, 104);
 }
 
-.transaction_row:nth-child(2n){
-    background-color: rgb(248, 188, 233);
+.transaction_row:nth-child(2n) {
+  background-color: rgb(248, 188, 233);
 }
